@@ -1,0 +1,55 @@
+/* mountain */
+.exo{
+    font-family: 'Exo', sans-serif;
+}
+
+.mountain__background{
+    background-image: url(../images/rectangle_20_17109.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.mountain__title{
+    
+font-size: 60px;
+line-height: 75px;
+font-weight: 100;
+letter-spacing: 0.04em;
+color: #282828;
+}
+.btn-floating.btn-large {
+    width: 76px;
+    height: 76px;
+    padding: 0;
+}
+.play__btn{
+    position: relative;
+}
+.play__img{
+    position: relative;
+    top: 15px;
+    left: 3px;
+}
+.btn__try{
+font-family: 'Exo', sans-serif;
+font-size: 16px;
+border-radius: 5px; 
+padding: 10px 30px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+background-color: #ff6d6d;
+}
+.mountain__text{
+    opacity: 0.6;
+font-family: 'Exo';
+font-size: 14px;
+line-height: 75px;
+font-weight: 400;
+letter-spacing: 0.04em;
+color: #282828;
+}
+
+/* DESIGN */
