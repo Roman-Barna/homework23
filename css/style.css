@@ -164,8 +164,9 @@ z-index: 1;
 .mark{
     background-image: url(../images/mark.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 648px;
+    background-size: cover;
+    height: 100%;
+    
 }
 .mark_title{
 font-family: 'Exo';
@@ -187,6 +188,11 @@ color: #ffffff;
 }
 .mark__block{
     padding-top: 70px;
+}
+.logo__mark{
+    height: 50px;
+    margin: 20px 0;
+
 }
 .logo__mark:hover{
     box-shadow: 0 0 16px #ffffff;
@@ -226,7 +232,7 @@ color: #282828;
 
 .form{
     background-image: url(../images/logo__background.png);
-   
+   z-index: 1000;
 }
 .form__title{
     font-family: 'Exo';
@@ -239,6 +245,7 @@ margin-bottom: 70px;
 }
 .form{
 padding: 70px 0;
+z-index: 1000;
 }
 .form__text{
 opacity: 0.6;
@@ -283,19 +290,67 @@ color: #f6f5f3;
 .margit__top{
     margin-top: 23px;
 }
+.display-flex{
+    display: flex;
+}
+#btn__footer{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6d6d;
+}
+.footer__link{
+ margin-left: 5px; 
+ opacity: 0.5;
+}
+.footer__link:hover{
+    transform: scale(1.2);
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+/* .footer__triangle{
+  width: 300px;
+ 
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+ */
+ 
+ .footer__triangle{
+      background: #ff8a8a;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+   
+ }
+.footer__triangle:after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0px;
+     top: -180px; /* Положение треугольника */
+    /* Прозрачные границы */
+    /* Добавляем треугольник */
+   border: 220px solid transparent; 
+   border-top: 220px solid #ff8a8a;
+    border-right: 220px solid #ff8a8a;
+    
+}
+.height250{
+    height: 250px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
+.navbar-fixed{
+    z-index: 10000000;
+}
 
 
 
@@ -321,6 +376,9 @@ height: 50vh;
     }
     #TRY__btn{
         width: 100%;
+    }
+    .footer__triangle{
+        display: none;
     }
 }
 @media screen and (max-width:600px) {
