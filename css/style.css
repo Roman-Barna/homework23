@@ -52,12 +52,13 @@ color: #282828;
 /* DESIGN */
 
 .DESIGN__block{
-    padding:40px 120px;
+    padding:80px 120px;
+    height: 100%;
 }
 
 
 .DESIGN__img{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 #DESIGN__img__block{
@@ -67,7 +68,16 @@ color: #282828;
     .DESIGN__img{
 height: 50vh;
     }
+    .img__ablosute{
+        display: none;
+    }
 }
+@media screen and (max-width:600px) {
+    .heig{
+height: 100%;
+    }
+}
+
 .DESIGN__text {
 font-family: 'Exo';
 font-size: 16px;
@@ -96,3 +106,51 @@ font-weight: 500;
 letter-spacing: 0.04em;
 color: #282828;
 }
+
+
+
+
+
+/* feature */
+.feature__background{
+    width: 100%;
+   
+}
+.m0{
+    margin: 0;
+}
+.feature__block{
+    margin-top: 50px;
+}
+.feature__box:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+.feature__box:hover > img {
+
+border-radius: 50%;
+}
+.feature__box:hover > img {
+     transform: scale(0.7);
+    transition: 0.8s ease;
+    box-shadow: 0 0 24px #000;
+
+}
+.img__ablosute{
+    position: absolute;
+    background-image: url(../images/logo__fuature.png);
+  
+    background-repeat: no-repeat;
+width: 213px;
+height: 279px;
+opacity: 0.9;
+top: -60px    ;
+right: 200px;
+z-index: 1;
+}
+.feature_title__shadow{
+    text-shadow: 0 0 16px red   ;
+}
+
+/* TV */
