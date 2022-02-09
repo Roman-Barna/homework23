@@ -216,3 +216,25 @@ color: #ffffff;
     transform: scale(0.9);
     cursor: pointer;
 }
+
+/* browser */
+.brawser__text{
+    opacity: 0.65;
+font-family: "Exo";
+font-size: 16px;
+line-height: 26px;
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #282828;
+}
+.brawser{
+    padding-top: 80px;
+}
+.brawser__img{
+    margin-top: 40px;
+    width: 100%;
+    height: 280px;
+    background-image: url(../images/brawser__logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
