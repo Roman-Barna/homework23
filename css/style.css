@@ -176,3 +176,43 @@ z-index: 1;
 .TV .row .col img{
     margin-top: 80px;
 }
+/* mark */
+.mark{
+    background-image: url(../images/mark.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 648px;
+}
+.mark_title{
+font-family: 'Exo';
+font-size: 22px;
+
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #ffffff;
+}
+.mark_text{
+opacity: 0.65;
+font-family: 'Exo';
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+font-style: italic;
+letter-spacing: 0.04em;
+color: #ffffff;
+}
+.mark__block{
+    padding-top: 70px;
+}
+.logo__mark:hover{
+    box-shadow: 0 0 16px #ffffff;
+    transition: 0.8s ease;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.mark__box:hover{
+    box-shadow: 0 0 16px #ffffff;
+    transition: 0.8s ease;
+    transform: scale(0.9);
+    cursor: pointer;
+}
