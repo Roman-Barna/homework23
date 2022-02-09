@@ -273,10 +273,16 @@ color: #f6f5f3;
     position: absolute;
     top: -40px;
 }
+/* footer */
+.footer__logo{
+   position: relative;
+   top: 17px;
+}
 
 
-
-
+.margit__top{
+    margin-top: 23px;
+}
 
 
 
