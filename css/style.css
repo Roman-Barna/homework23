@@ -3,10 +3,7 @@
     font-family: 'Exo', sans-serif;
 }
 
-.mountain__background{
-    background-image: url(../images/rectangle_20_17109.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+.vh100{
     height: 100vh;
 }
 
@@ -53,3 +50,49 @@ color: #282828;
 }
 
 /* DESIGN */
+
+.DESIGN__block{
+    padding:40px 120px;
+}
+
+
+.DESIGN__img{
+    height: 100vh;
+    width: 100%;
+}
+#DESIGN__img__block{
+    padding: 0;
+}
+@media screen and (max-width:992px) {
+    .DESIGN__img{
+height: 50vh;
+    }
+}
+.DESIGN__text {
+font-family: 'Exo';
+font-size: 16px;
+line-height: 50px;
+font-weight: 500;
+letter-spacing: 0.2em;
+color: #ff6d6d;
+}
+
+.DESIGN__title{
+font-family: 'Exo';
+font-size: 40px;
+line-height: 50px;
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #282828;
+
+
+}
+.DESIGN__text1{
+opacity: 0.65;
+font-family: 'Exo';
+font-size: 16px;
+line-height: 26px;
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #282828;
+}
